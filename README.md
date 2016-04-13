@@ -1,3 +1,5 @@
+Code sample reproducing https://github.com/aspnet/Routing/issues/307
+
 ```
 # dotnet --version
 1.0.0-rc2-002372
