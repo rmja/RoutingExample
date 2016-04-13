@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "compilationOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true,
+    "debugType": "portable"
+  },
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-20542",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-20542",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-20542",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-*"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "portable-dnxcore50+net45+win8+wp8+wpa81"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿Products
+
+<br />
+<a asp-action="Details" asp-route-id="1337">Go to product details (in same area) (Working link)</a>
+<br />
+<a asp-action="Index" asp-controller="Tickets" asp-route-area="Support">Go to support tickets (in different area) (Broken link)</a>
+<br />
+<a asp-action="Index" asp-controller="Tickets" asp-route-area="Support" asp-route-manufacturer="@ViewContext.RouteData.Values["manufacturer"].ToString()">Go to support tickets (in different area) (Working link)</a>
+<br />
